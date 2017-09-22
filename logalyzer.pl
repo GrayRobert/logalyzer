@@ -2,7 +2,7 @@
 
 ################################################################################################
 #
-# parseLogs.pl
+# logalyzer.pl
 #
 # Author: Robert Gray
 #
@@ -21,8 +21,7 @@ use warnings;
 # \_\_/| \|__) |/--\| \||__)
 #
 
-# Log Format 
-# "%{X-Forwarded-For}i %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\" %{imagereader_source}n %{php_time_microsec}n %D" combined
+# Log Format
 # 213.48.246.107 - - [22/Sep/2017:15:36:08 +0100] "POST /?0-1.IFormSubmitListener-headerPanel-headerContainer-search-searchFormTabsPanel-packageSearchPanel-inputForm HTTP/1.1" 301 - "https://www.topflight.ie/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36"
 
 # Regular Expression for parsing the above log format
