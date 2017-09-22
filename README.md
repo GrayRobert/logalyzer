@@ -5,7 +5,7 @@
             |_____\___/ \__, |\__,_|_|\__, /___\___|_|
                         |___/         |___/
             ---------------------------------------------
-             Created by Rob Gray 2018 no rights reserved
+             Created by Rob Gray 2017 no rights reserved
 
 
 Usage: logalyzer.pl log_file.log
